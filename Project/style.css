@@ -1,0 +1,54 @@
+
+* {
+    text-align: right;
+}
+
+body {
+    background-image: url(images/museum.jpg);
+    background-size: cover;
+}
+
+ p {
+    color: #F9414E;
+    text-align: center;
+    border: 5px solid rgba(255, 107, 107, 0.4);
+
+}
+h2 {
+    cursor: pointer;
+}
+
+
+p {
+    line-height: 40px;
+    font-style: italic;
+    font-weight:bold;
+    font-size: 80%;
+    font-family: 'Ubuntu', sans-serif;
+    }
+img{
+    float: right;
+}
+footer {
+    clear:both;
+    text-align: center;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext:first-child {
+border: 5px dashed green;
+}
+
+.active {
+    color: red;
+}
+#div1 {
+    background: rgba(255, 0, 0, 0.2);
+}
+
+#div2 {
+    background: rgba(0, 0, 255, 0.2);
+}
